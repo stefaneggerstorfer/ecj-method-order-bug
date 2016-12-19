@@ -32,7 +32,8 @@
 			<id>jdt</id>
 			<activation>
 				<property>
-					<name>jdt</name>
+					<name>env.COMPILER</name>
+					<value>jdt</value>
 				</property>
 			</activation>
 			<build>
