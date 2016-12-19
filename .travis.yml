@@ -1,0 +1,9 @@
+language: java
+
+env:
+  matrix:
+    - COMPILER='default'
+    - COMPILER='jdt'
+
+jdk:
+  - oraclejdk8
